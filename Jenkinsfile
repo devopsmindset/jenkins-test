@@ -14,7 +14,7 @@ devopsPipeline(disableConcurrentBuilds: changeRequest()) {
                 stageCheckout() {
 
                     if (changeRequest()) {
-                        log "changeRequest"
+                        log "changeRequest test"
                     } else {
                         log "notChangeRequestasd"
 
